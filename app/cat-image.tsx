@@ -26,12 +26,13 @@ export function CatImage({ url, id }: CatImageProps) {
             <h1 className={styles.h1}>この猫のIDは{imageId}</h1>
             <div className={styles.page}>
                 <button onClick={freshImage} className={styles.button}>
-                    他のニャンコも見る
+                    one more cat !!
                 </button>
                 <div className={styles.frame}>
                     {imageUrl && <img src={imageUrl} className={styles.img}/>}
                 </div>
             </div>
+            <h1>This app made by kouki mutsukura.</h1>
         </>
     )
 };
